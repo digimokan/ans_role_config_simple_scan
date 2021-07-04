@@ -1,6 +1,6 @@
 galaxy_info:
   author: digimokan
-  description: "Install and configure the simple-scan scanning application"
+  description: "Install and configure the Simple-Scan scanning application"
   license: "MIT"
   min_ansible_version: 2.8
   platforms:
