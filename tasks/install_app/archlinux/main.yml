@@ -1,0 +1,7 @@
+- name: "Install the 'simple-scan' application package"
+  community.general.pacman:
+    name: simple-scan
+    state: present
+  become: true
+  become_user: root
+
