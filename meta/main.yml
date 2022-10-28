@@ -7,7 +7,17 @@ galaxy_info:
     - name: Archlinux
       versions:
         - all
+    - name: Ubuntu
+      versions:
+        - bionic
+        - hirsute
+        - impish
+    - name: FreeBSD
+      versions:
+        - all
   galaxy_tags:
+    - archlinux
+    - ubuntu
     - archlinux
     - scanner
     - simple-scan

@@ -27,7 +27,9 @@ Install and configure the Simple-Scan scanning application.
 
 ## Supported Operating Systems
 
-* Arch Linux.
+* Ubuntu bionic (18.04), focal (20.04), jammy (22.04)
+* Arch Linux
+* FreeBSD
 
 ## Quick Start
 
