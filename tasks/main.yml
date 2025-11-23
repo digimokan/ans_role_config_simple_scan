@@ -1,6 +1,6 @@
 - name: "Remove and unconfigure any other scanning apps that may be installed"
   ansible.builtin.include_tasks: remove_other_apps/main.yml
-  when: remove_other_scanning_apps
+  when: simple_scan_remove_other_scanning_apps
 
 - name: "Install Simple-Scan application"
   ansible.builtin.include_tasks: install_app/main.yml
